@@ -12,6 +12,7 @@ import { MatInputModule, MatButtonModule,
 
 import { MatMenuModule } from '@angular/material/menu';
 import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 
 import { AppComponent } from './app.component';
@@ -22,6 +23,7 @@ import { TooltipDemoComponent } from './tooltip-demo/tooltip-demo.component';
 import { SnackbarDemoComponent } from './snackbar-demo/snackbar-demo.component';
 import { MenudemoComponent } from './menudemo/menudemo.component';
 import { SidenavdemoComponent } from './sidenavdemo/sidenavdemo.component';
+import { ToolbardemoComponent } from './toolbardemo/toolbardemo.component';
 
 
 @NgModule({
@@ -34,6 +36,7 @@ import { SidenavdemoComponent } from './sidenavdemo/sidenavdemo.component';
     SnackbarDemoComponent,
     MenudemoComponent,
     SidenavdemoComponent,
+    ToolbardemoComponent,
   ],
   imports: [
     BrowserModule,
@@ -47,7 +50,8 @@ import { SidenavdemoComponent } from './sidenavdemo/sidenavdemo.component';
     MatSnackBarModule,
     MatMenuModule,
     MatIconModule,
-    MatSidenavModule
+    MatSidenavModule,
+    MatToolbarModule
   ],
   entryComponents: [
     MyDialogComponent
