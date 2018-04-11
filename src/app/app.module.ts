@@ -7,13 +7,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 import { MatInputModule, MatButtonModule,
         MatCardModule, MatDialogModule,
-        MatTooltip } from '@angular/material';
+        MatTooltipModule, MatSnackBarModule } from '@angular/material';
 
 
 import { AppComponent } from './app.component';
 import { MyFormComponent } from './my-form/my-form.component';
 import { DialogDemoComponent } from './dialog-demo/dialog-demo.component';
 import { MyDialogComponent } from './my-dialog/my-dialog.component';
+import { TooltipDemoComponent } from './tooltip-demo/tooltip-demo.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { MyDialogComponent } from './my-dialog/my-dialog.component';
     AppComponent,
     MyFormComponent,
     DialogDemoComponent,
-    MyDialogComponent
+    MyDialogComponent,
+    TooltipDemoComponent
   ],
   imports: [
     BrowserModule,
@@ -31,7 +33,8 @@ import { MyDialogComponent } from './my-dialog/my-dialog.component';
     MatButtonModule,
     MatDialogModule,
     MatCardModule,
-    MatTooltip
+    MatTooltipModule,
+    MatSnackBarModule
   ],
   entryComponents: [
     MyDialogComponent
