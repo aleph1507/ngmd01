@@ -15,6 +15,7 @@ import { MyFormComponent } from './my-form/my-form.component';
 import { DialogDemoComponent } from './dialog-demo/dialog-demo.component';
 import { MyDialogComponent } from './my-dialog/my-dialog.component';
 import { TooltipDemoComponent } from './tooltip-demo/tooltip-demo.component';
+import { SnackbarDemoComponent } from './snackbar-demo/snackbar-demo.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { TooltipDemoComponent } from './tooltip-demo/tooltip-demo.component';
     MyFormComponent,
     DialogDemoComponent,
     MyDialogComponent,
-    TooltipDemoComponent
+    TooltipDemoComponent,
+    SnackbarDemoComponent
   ],
   imports: [
     BrowserModule,
